@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"><br><br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="Ingrese su correo"><br><br>
+
+        <label for="clave">Contraseña:</label>
+        <input type="password" id="clave" name="clave" placeholder="Ingrese su contraseña" required><br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" placeholder="Ingrese su edad"><br><br>
+
+        <label for="fecha">Fecha de asistencia:</label>
+        <input type="date" id="fecha" name="fecha" placeholder="Seleccione una fecha"><br><br>
+
+        <p>Modalidad:</p>
+        <input type="radio" id="presencial" name="modalidad" value="presencial">
+        <label for="presencial">Presencial</label>
+        <input type="radio" id="virtual" name="modalidad" value="virtual">
+        <label for="virtual">Virtual</label><br><br>
+
+        <p>Lenguajes de Programación:</p>
+        <input type="checkbox" id="python" name="lenguajes" value="python">
+        <label for="python">Python</label>
+        <input type="checkbox" id="java" name="lenguajes" value="java">
+        <label for="java">Java</label>
+        <input type="checkbox" id="typescript" name="lenguajes" value="typescript">
+        <label for="typescript">Typescript</label>
+        <input type="checkbox" id="c#" name="lenguajes" value="c#">
+        <label for="c#">C#</label>
+        <input type="checkbox" id="php" name="lenguajes" value="php">
+        <label for="php">PHP</label><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
