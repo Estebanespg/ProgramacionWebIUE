@@ -22,6 +22,7 @@
         <a href="#explora">Explora</a>
         <a href="#invitados">Invitados</a>
         <a href="#programacion">Programación</a>
+        <a href="#registro-y-reserva">Registro y reserva</a>
     </nav>
 
     <main>
@@ -222,7 +223,73 @@
             </table>
         </section>
 
-        <section></section>
+        <section id="registro-y-reserva">
+            <h1>Registro de asistentes y reserva de cupos</h1>
+
+            <p>🍝 ¡El plan más delicioso del año te espera! Completa el formulario y asegura tu cupo para el Festival
+                Gastronómico Sabor Envigado 2026. ¡No te quedes sin vivir esta experiencia llena de sabor!</p>
+
+            <form>
+                <label for="NombreCompleto">Nombre completo:</label>
+                <input type="text" id="NombreCompleto" name="NombreCompleto" placeholder="Esteban Pérez Garzón"
+                    required><br><br>
+
+
+
+                <label for="CorreoElectronico">Correo electrónico:</label>
+                <input type="email" id="CorreoElectronico" name="CorreoElectronico" placeholder="usuario@ejemplo.com"
+                    required><br><br>
+
+
+
+                <label for="Telefono">Teléfono:</label>
+                <input type="tel" id="Telefono" name="Telefono" placeholder="3001234567"><br>
+
+
+
+                <p>Tipo de asistente:</p>
+                <input type="radio" id="general" name="tipo" value="General" required>
+                <label for="general">General</label>
+
+                <input type="radio" id="estudiante" name="tipo" value="Estudiante" required>
+                <label for="estudiante">Estudiante</label>
+
+                <input type="radio" id="prensa" name="tipo" value="Prensa" required>
+                <label for="prensa">Prensa</label>
+
+                <input type="radio" id="otro" name="tipo" value="Otro" required>
+                <label for="otro">Otro</label><br>
+
+
+
+                <p>Taller / Experiencia:</p>
+                <input type="checkbox" id="ArepaDeChocolo" name="taller"
+                    value="Secretos de la Arepa de Chócolo Tradicional">
+                <label for="ArepaDeChocolo">Secretos de la Arepa de Chócolo Tradicional</label><br>
+
+                <input type="checkbox" id="CervezaArtesanal" name="taller" value="Cerveza Artesanal y Maridaje Local">
+                <label for="CervezaArtesanal">Cerveza Artesanal y Maridaje Local</label><br>
+
+                <input type="checkbox" id="CocteleriaFrutas" name="taller"
+                    value="Coctelería de Autor con Frutas Antioqueñas">
+                <label for="CocteleriaFrutas">Coctelería de Autor con Frutas Antioqueñas</label><br>
+
+                <input type="checkbox" id="ChicharronAntioqueño" name="taller"
+                    value="Secretos del Chicharrón Crujiente Antioqueño">
+                <label for="ChicharronAntioqueño">Secretos del Chicharrón Crujiente Antioqueño</label><br>
+
+                <input type="checkbox" id="Reposteria" name="taller" value="Repostería y Sabores de la Montaña">
+                <label for="Reposteria">Repostería y Sabores de la Montaña</label><br>
+
+                <input type="checkbox" id="CocinaTradicional" name="taller"
+                    value="Muestra de Cocina Tradicional Abierta al Público">
+                <label for="CocinaTradicional">Muestra de Cocina Tradicional Abierta al Público</label><br><br>
+
+
+
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
     </main>
 
     <footer>
