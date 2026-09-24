@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medellín Tech Conference</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Medellín Tech</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                    <a class="nav-link" href="#ponentes">Ponentes</a>
+                    <a class="nav-link" href="#agenda">Agenda</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Medellín Tech Conference</h1>
+            <p class="lead mb-0">Innovación, desarrollo web y tecnología.</p>
+        </div>
+    </header>
+
+    <main class="container py-5">
+
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="..." class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Hello, world! This is a toast message.
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-success" role="alert">
+            Inscripciones abiertas para la próxima edición.
+        </div>
+
+        <section id="ponentes" class="my-5">
+            <h2 class="text-center mb-4">Temas principales</h2>
+
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title h5">HTML</h3>
+                            <p class="card-text">Estructura semántica y contenido web.</p>
+                            <button type="button" class="btn btn-primary" id="liveToastBtn">MOSTRAR TOAST</button>
+                            <a href="#" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title h5">CSS</h3>
+                            <p class="card-text">Diseño, layout y Responsive Design.</p>
+                            <button type="button" class="btn btn-success" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here’s some amazing content. It’s very engaging. Right?">Click to toggle popover</button>
+                            <a href="#" class="btn btn-success">Ver detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Bootstrap</h3>
+                            <p class="card-text">Interfaces rápidas, reutilizables y responsive.</p>
+                            <a href="#" class="btn btn-warning">Ver detalle</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="agenda" class="my-5">
+            <h2 class="mb-4">Agenda</h2>
+
+            <div class="table-responsive">
+                <!--    align-middle -->
+                <table class="table table-striped table-hover">
+                    <!--  -->
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Hora</th>
+                            <th>Actividad</th>
+                            <th>Sala</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>6:00 p. m.</td>
+                            <td>HTML y estructura web</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>7:00 p. m.</td>
+                            <td>CSS y Responsive Design</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>8:00 p. m.</td>
+                            <td>Bootstrap 5</td>
+                            <td>C</td>
+                        </tr>
+                        <tr>
+                            <td>8:00 p. m.</td>
+                            <td>Bootstrap 5</td>
+                            <td>C</td>
+                        </tr>
+                        <tr>
+                            <td>8:00 p. m.</td>
+                            <td>Bootstrap 5</td>
+                            <td>C</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="text-center my-5 p-4 border rounded shadow-sm">
+            <h2>¿Quieres participar?</h2>
+            <p>Regístrate para recibir información del evento.</p>
+            <button class="btn btn-primary btn-lg">Inscribirme</button>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">Programación Web - Medellín Tech Conference</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
