@@ -1,0 +1,58 @@
+:root {
+    --color-pagina: #000000;
+    --fondo-pagina: #f0f0f0;
+
+    --color-nav: antiquewhite;
+    --fondo-nav: #5E0F42;
+
+    --fondo-complementario: #0F5E2B;
+}
+
+body {
+    background-color: var(--fondo-pagina);
+    color: var(--color-pagina);
+}
+
+.nav-principal {
+    background-color: var(--fondo-nav);
+}
+
+.texto-nav {
+    color: var(--color-nav);
+}
+
+.texto-nav:hover {
+    color: var(--color-nav);
+}
+
+.encabezado-principal {
+    height: 150px;
+    background-color: var(--fondo-nav);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenido {
+    margin-top: 30px;
+}
+
+.titulo-quienes-somos {
+    text-align: center;
+}
+
+.titulo-restaurantes {
+    text-align: center;
+}
+
+.contenedor-tarjetas-restaurantes {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.tarjeta-restaurantes {
+    flex: 1;
+}
