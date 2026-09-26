@@ -164,3 +164,24 @@ body {
     object-fit: cover;
     border-radius: 6px;
 }
+
+/* ========== PROGRAMACIÓN Y TARIFAS ========== */
+.titulo-programacion {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* ========== REGISTRO DE ASISTENTES ========== */
+.titulo-registro {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: var(--fondo-nav);
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
