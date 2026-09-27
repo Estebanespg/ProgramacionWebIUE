@@ -287,121 +287,159 @@
             <p>🍝 ¡El plan más delicioso del año te espera! Completa el formulario y asegura tu cupo para el Festival
                 Gastronómico Sabor Envigado 2026. ¡No te quedes sin vivir esta experiencia llena de sabor!</p>
 
-            <form>
-                <div class="mt-3">
-                    <label for="NombreCompleto" class="form-label">Nombre completo:</label>
-                    <input type="text" class="form-control" id="NombreCompleto" placeholder="Esteban Pérez Garzón"
-                        name="NombreCompleto" required>
+            <form id="formularioReserva">
+                <div class="row mt-3">
+                    <label for="NombreCompleto" class="col-sm-2 col-form-label">Nombre completo:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="NombreCompleto" placeholder="Esteban Pérez Garzón"
+                            name="NombreCompleto" required>
+                    </div>
                 </div>
 
 
 
-                <div class="mt-3">
-                    <label for="CorreoElectronico" class="form-label">Correo electrónico:</label>
-                    <input type="email" class="form-control" id="CorreoElectronico" placeholder="usuario@ejemplo.com"
-                        name="CorreoElectronico" required>
+                <div class="row mt-3">
+                    <label for="CorreoElectronico" class="col-sm-2 col-form-label">Correo electrónico:</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="CorreoElectronico"
+                            placeholder="Usuario@ejemplo.com" name="CorreoElectronico" required>
+                    </div>
                 </div>
 
 
 
-                <div class="mt-3">
-                    <label for="Telefono" class="form-label">Teléfono:</label>
-                    <input type="tel" class="form-control" id="Telefono" placeholder="3001234567"
-                        name="Telefono" required>
+                <div class="row mt-3">
+                    <label for="Telefono" class="col-sm-2 col-form-label">Teléfono:</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="Telefono" placeholder="3001234567" name="Telefono"
+                            required>
+                    </div>
                 </div>
 
 
 
-                <p class="mb-0 mt-3">Tipo de asistente:</p>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="tipo" id="general" value="General" required>
-                    <label class="form-check-label" for="general">
-                        General
-                    </label>
+                <fieldset class="row mt-3">
+                    <legend class="col-form-label col-sm-2 pt-0">Tipo de asistente:</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="TipoAsistente" id="general" value="General"
+                                required>
+                            <label class="form-check-label" for="general">
+                                General
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="TipoAsistente" id="estudiante" value="Estudiante"
+                                required>
+                            <label class="form-check-label" for="estudiante">
+                                Estudiante
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="TipoAsistente" id="prensa" value="Prensa"
+                                required>
+                            <label class="form-check-label" for="prensa">
+                                Prensa
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="TipoAsistente" id="otro" value="Otro" required>
+                            <label class="form-check-label" for="otro">
+                                Otro
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+
+
+                <fieldset class="row mt-3">
+                    <legend class="col-form-label col-sm-2 pt-0">Taller / Experiencia:</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"
+                                value="Secretos de la Arepa de Chócolo Tradicional" id="ArepaDeChocolo" name="Taller">
+                            <label class="form-check-label" for="ArepaDeChocolo">
+                                Secretos de la Arepa de Chócolo Tradicional
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Cerveza Artesanal y Maridaje Local"
+                                id="CervezaArtesanal" name="Taller">
+                            <label class="form-check-label" for="CervezaArtesanal">
+                                Cerveza Artesanal y Maridaje Local
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"
+                                value="Coctelería de Autor con Frutas Antioqueñas" id="CocteleriaFrutas" name="Taller">
+                            <label class="form-check-label" for="CocteleriaFrutas">
+                                Coctelería de Autor con Frutas Antioqueñas
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"
+                                value="Secretos del Chicharrón Crujiente Antioqueño" id="ChicharronAntioqueño"
+                                name="Taller">
+                            <label class="form-check-label" for="ChicharronAntioqueño">
+                                Secretos del Chicharrón Crujiente Antioqueño
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="Repostería y Sabores de la Montaña"
+                                id="Reposteria" name="Taller">
+                            <label class="form-check-label" for="Reposteria">
+                                Repostería y Sabores de la Montaña
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"
+                                value="Muestra de Cocina Tradicional Abierta al Público" id="CocinaTradicional"
+                                name="Taller">
+                            <label class="form-check-label" for="CocinaTradicional">
+                                Muestra de Cocina Tradicional Abierta al Público
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+
+
+                <div class="d-flex justify-content-center">
+                    <button type="submit" id="btnReservar" class="btn btn-success mt-3">Reservar</button>
                 </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="tipo" id="estudiante" value="Estudiante"
-                        required>
-                    <label class="form-check-label" for="estudiante">
-                        Estudiante
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="tipo" id="prensa" value="Prensa" required>
-                    <label class="form-check-label" for="prensa">
-                        Prensa
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="tipo" id="otro" value="Otro" required>
-                    <label class="form-check-label" for="otro">
-                        Otro
-                    </label>
-                </div>
-
-
-
-                <p class="mb-0 mt-3">Taller / Experiencia:</p>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Secretos de la Arepa de Chócolo Tradicional"
-                        id="ArepaDeChocolo" name="taller">
-                    <label class="form-check-label" for="ArepaDeChocolo">
-                        Secretos de la Arepa de Chócolo Tradicional
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Cerveza Artesanal y Maridaje Local"
-                        id="CervezaArtesanal" name="taller">
-                    <label class="form-check-label" for="CervezaArtesanal">
-                        Cerveza Artesanal y Maridaje Local
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Coctelería de Autor con Frutas Antioqueñas"
-                        id="CocteleriaFrutas" name="taller">
-                    <label class="form-check-label" for="CocteleriaFrutas">
-                        Coctelería de Autor con Frutas Antioqueñas
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Secretos del Chicharrón Crujiente Antioqueño"
-                        id="ChicharronAntioqueño" name="taller">
-                    <label class="form-check-label" for="ChicharronAntioqueño">
-                        Secretos del Chicharrón Crujiente Antioqueño
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Repostería y Sabores de la Montaña"
-                        id="Reposteria" name="taller">
-                    <label class="form-check-label" for="Reposteria">
-                        Repostería y Sabores de la Montaña
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox"
-                        value="Muestra de Cocina Tradicional Abierta al Público" id="CocinaTradicional" name="taller">
-                    <label class="form-check-label" for="CocinaTradicional">
-                        Muestra de Cocina Tradicional Abierta al Público
-                    </label>
-                </div>
-
-                <button type="button" class="btn btn-success mt-3">Reservar</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <h5 class="fs-6 mb-2 fw-normal">Copyright &copy; 2026 Sabor Envigado - Festival Gastronómico. Todos los derechos reservados.</h5>
+        <h5 class="fs-6 mb-2 fw-normal">Copyright &copy; 2026 Sabor Envigado - Festival Gastronómico. Todos los derechos
+            reservados.</h5>
         <h6 class="fs-6 fst-italic m-0">Desarrollador por Esteban Pérez Garzón</h6>
     </footer>
+
+    <!-- COMPONENTE 2: TOAST -->
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+        <div id="toastReserva" class="toast align-items-center text-bg-success border-0" role="alert"
+            aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    ¡Tu reserva se ha registrado con éxito!<br>
+                    Mantente atento a tu correo electrónico.
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

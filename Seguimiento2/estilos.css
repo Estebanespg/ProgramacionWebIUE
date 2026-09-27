@@ -1,16 +1,26 @@
 :root {
-    --color-pagina: #000000;
-    --fondo-pagina: #f0f0f0;
+    --color-pagina: #1F1F1F;
+    --fondo-pagina: #fdf8f4;
 
     --color-nav: antiquewhite;
     --fondo-nav: #5E0F42;
 
     --fondo-complementario: #0F5E2B;
+    --fondo-tarjeta: #ffffff;
+    --fondo-destacado: #f5ebe6;
 }
 
 body {
     background-color: var(--fondo-pagina);
     color: var(--color-pagina);
+}
+
+section {
+    background-color: #ffffff;
+    padding: 35px 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(94, 15, 66, 0.05);
 }
 
 /* ========== NAV ========== */
@@ -44,11 +54,17 @@ body {
 
 /* ========== ¿QUE ES SABOR ENVIGADO? ========== */
 .titulo-quienes-somos {
+    color: var(--fondo-nav);
+    font-weight: bold;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 /* ========== RESTAURANTES POR PRECIO ========== */
 .titulo-restaurantes {
+    color: var(--fondo-nav);
+    font-weight: bold;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -79,7 +95,9 @@ body {
 
 /* ========== EXPLORA LOS RESTAURANTES ========== */
 .titulo-explora {
-    margin-top: 30px;
+    color: var(--fondo-nav);
+    font-weight: bold;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -136,7 +154,9 @@ body {
 
 /* ========== INVITADOS 2026 ========== */
 .titulo-invitados {
-    margin-top: 30px;
+    color: var(--fondo-nav);
+    font-weight: bold;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -167,16 +187,19 @@ body {
 
 /* ========== PROGRAMACIÓN Y TARIFAS ========== */
 .titulo-programacion {
-    margin-top: 30px;
+    color: var(--fondo-nav);
+    font-weight: bold;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 /* ========== REGISTRO DE ASISTENTES ========== */
 .titulo-registro {
-    margin-top: 30px;
+    color: var(--fondo-nav);
+    font-weight: bold;
+    margin-bottom: 20px;
     text-align: center;
 }
-
 
 footer {
     background-color: var(--fondo-nav);
