@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HolaMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d1fcd732d2b08c8dc017624edcdc69f259b1514")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69e883b38689c38ee051dc3034cc73ab60959626")]
 [assembly: System.Reflection.AssemblyProductAttribute("HolaMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HolaMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
