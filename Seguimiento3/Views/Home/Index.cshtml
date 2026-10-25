@@ -1,4 +1,6 @@
-﻿<header class="encabezado-principal">
+﻿@model Seguimiento3.Models.Asistente
+
+<header class="encabezado-principal">
     <h1>Del 20 al 23 de Noviembre de 2023</h1>
     <p>Vive la experiencia gastronómica y conoce todos los restaurantes del evento</p>
 </header>
@@ -241,32 +243,33 @@
             Gastronómico Sabor Envigado 2026. ¡No te quedes sin vivir esta experiencia llena de sabor!
         </p>
 
-        <form id="formularioReserva">
+        <form asp-controller="Home" asp-action="Index" method="post">
             <div class="row mt-3">
-                <label for="NombreCompleto" class="col-sm-2 col-form-label">Nombre completo:</label>
+                <label asp-for="NombreCompleto" class="col-sm-2 col-form-label">Nombre completo:</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="NombreCompleto" placeholder="Esteban Pérez Garzón"
-                           name="NombreCompleto" required>
+                    <input type="text" class="form-control" asp-for="NombreCompleto" placeholder="Esteban Pérez Garzón">
+                    <span asp-validation-for="NombreCompleto" class="text-danger"></span>
                 </div>
             </div>
 
 
 
             <div class="row mt-3">
-                <label for="CorreoElectronico" class="col-sm-2 col-form-label">Correo electrónico:</label>
+                <label asp-for="CorreoElectronico" class="col-sm-2 col-form-label">Correo electrónico:</label>
                 <div class="col-sm-10">
-                    <input type="email" class="form-control" id="CorreoElectronico" placeholder="Usuario@ejemplo.com"
-                           name="CorreoElectronico" required>
+                    <input type="email" class="form-control" asp-for="CorreoElectronico"
+                           placeholder="Usuario@ejemplo.com">
+                    <span asp-validation-for="CorreoElectronico" class="text-danger"></span>
                 </div>
             </div>
 
 
 
             <div class="row mt-3">
-                <label for="Telefono" class="col-sm-2 col-form-label">Teléfono:</label>
+                <label asp-for="Telefono" class="col-sm-2 col-form-label">Teléfono:</label>
                 <div class="col-sm-10">
-                    <input type="number" class="form-control" id="Telefono" placeholder="3001234567" name="Telefono"
-                           required>
+                    <input type="tel" class="form-control" asp-for="Telefono" placeholder="3001234567">
+                    <span asp-validation-for="Telefono" class="text-danger"></span>
                 </div>
             </div>
 
@@ -276,36 +279,35 @@
                 <legend class="col-form-label col-sm-2 pt-0">Tipo de asistente:</legend>
                 <div class="col-sm-10">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="TipoAsistente" id="general" value="General"
-                               required>
+                        <input class="form-check-input" type="radio" asp-for="TipoAsistente" id="general"
+                               value="General">
                         <label class="form-check-label" for="general">
                             General
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="TipoAsistente" id="estudiante"
-                               value="Estudiante" required>
+                        <input class="form-check-input" type="radio" asp-for="TipoAsistente" id="estudiante"
+                               value="Estudiante">
                         <label class="form-check-label" for="estudiante">
                             Estudiante
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="TipoAsistente" id="prensa" value="Prensa"
-                               required>
+                        <input class="form-check-input" type="radio" asp-for="TipoAsistente" id="prensa" value="Prensa">
                         <label class="form-check-label" for="prensa">
                             Prensa
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="TipoAsistente" id="otro" value="Otro"
-                               required>
+                        <input class="form-check-input" type="radio" asp-for="TipoAsistente" id="otro" value="Otro">
                         <label class="form-check-label" for="otro">
                             Otro
                         </label>
                     </div>
+                    <span asp-validation-for="TipoAsistente" class="text-danger"></span>
                 </div>
             </fieldset>
 
@@ -363,14 +365,19 @@
                             Muestra de Cocina Tradicional Abierta al Público
                         </label>
                     </div>
+                    <span asp-validation-for="Taller" class="text-danger"></span>
                 </div>
             </fieldset>
 
 
 
             <div class="d-flex justify-content-center">
-                <button type="submit" id="btnReservar" class="btn btn-success mt-3">Reservar</button>
+                <button type="submit" class="btn btn-success mt-3">Reservar</button>
             </div>
         </form>
     </section>
 </main>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

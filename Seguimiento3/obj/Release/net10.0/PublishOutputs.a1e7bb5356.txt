@@ -1,0 +1,7 @@
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\publicacion\Seguimiento3.exe
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\publicacion\appsettings.Development.json
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\publicacion\appsettings.json
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\publicacion\Seguimiento3.dll
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\publicacion\Seguimiento3.deps.json
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\publicacion\Seguimiento3.runtimeconfig.json
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\publicacion\Seguimiento3.pdb

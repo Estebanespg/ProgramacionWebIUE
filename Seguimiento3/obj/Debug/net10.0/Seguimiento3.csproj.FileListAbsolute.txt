@@ -20,6 +20,7 @@ C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\scopedcss\bundle\Seguimiento3.styles.css
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\01pcdtjfl3-{0}-q23302gokd-q23302gokd.gz
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\58t5t3f8q1-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\nms4s4a0wa-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\ipv64c6kdw-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -91,4 +92,3 @@ C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\Seguimiento3.pdb
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\Seguimiento3.genruntimeconfig.cache
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\ref\Seguimiento3.dll
-C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\01pcdtjfl3-{0}-q23302gokd-q23302gokd.gz

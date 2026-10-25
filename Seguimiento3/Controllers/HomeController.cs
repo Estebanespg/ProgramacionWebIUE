@@ -20,6 +20,6 @@ public class HomeController : Controller
         {
             return View(asistente);
         }
-        return View("Resultado", asistente);
+        return View("Mensaje", asistente);
     }
 }

@@ -11,11 +11,20 @@ public class Asistente
     public string CorreoElectronico { get; set; } = string.Empty;
 
     [Required(ErrorMessage = "El teléfono es obligatorio.")]
+    [RegularExpression(@"^\d{7,10}$", ErrorMessage = "El teléfono debe tener entre 7 y 10 dígitos.")]
     public string Telefono { get; set; } = string.Empty;
 
     [Required(ErrorMessage = "Debe seleccionar un tipo de asistente.")]
     public string TipoAsistente { get; set; } = string.Empty;
 
-    [Required(ErrorMessage = "Debe seleccionar al menos un taller.")]
+    [AlMenosUno(ErrorMessage = "Debe seleccionar al menos un taller.")]
     public List<string> Taller { get; set; } = new List<string>();
+}
+
+public class AlMenosUnoAttribute : ValidationAttribute
+{
+    public override bool IsValid(object? value)
+    {
+        return value is IEnumerable<string> lista && lista.Any(x => !string.IsNullOrWhiteSpace(x));
+    }
 }
