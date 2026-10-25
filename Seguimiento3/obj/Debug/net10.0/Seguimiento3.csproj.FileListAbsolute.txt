@@ -19,10 +19,7 @@ C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\scopedcss\bundle\Seguimiento3.styles.css
-C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\scopedcss\projectbundle\Seguimiento3.bundle.scp.css
-C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\01pcdtjfl3-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\58t5t3f8q1-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\nms4s4a0wa-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\ipv64c6kdw-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -84,8 +81,6 @@ C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\a7e7bmk87w-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\ztih77h919-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\38hgaciodm-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\ealjluzola-{0}-74x79sxz4a-74x79sxz4a.gz
-C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\okmgwfihmn-{0}-74x79sxz4a-74x79sxz4a.gz
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\staticwebassets.development.json
@@ -96,3 +91,4 @@ C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\Seguimiento3.pdb
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\Seguimiento3.genruntimeconfig.cache
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\ref\Seguimiento3.dll
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\compressed\01pcdtjfl3-{0}-q23302gokd-q23302gokd.gz
