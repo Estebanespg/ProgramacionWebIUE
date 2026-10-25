@@ -6,19 +6,20 @@ namespace Seguimiento3.Controllers;
 
 public class HomeController : Controller
 {
+    [HttpGet]
     public IActionResult Index()
     {
-        return View();
+        return View(new Asistente());
     }
 
-    public IActionResult Privacy()
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Index(Asistente asistente)
     {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        if (!ModelState.IsValid)
+        {
+            return View(asistente);
+        }
+        return View("Resultado", asistente);
     }
 }
