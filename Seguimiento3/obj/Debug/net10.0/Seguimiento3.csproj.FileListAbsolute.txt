@@ -92,3 +92,9 @@ C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\Seguimiento3.pdb
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\Seguimiento3.genruntimeconfig.cache
 C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\Seguimiento3\obj\Debug\net10.0\ref\Seguimiento3.dll
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\bin\Debug\net10.0\publicacion\web.config
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\bin\Debug\net10.0\publicacion\appsettings.Development.json
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\bin\Debug\net10.0\publicacion\appsettings.json
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\bin\Debug\net10.0\publicacion\Seguimiento3.deps.json
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\bin\Debug\net10.0\publicacion\Seguimiento3.runtimeconfig.json
+C:\Users\Esteban\Documents\IUE\06SEMESTRE\ProgramacionWeb\seguimiento3\bin\Debug\net10.0\publicacion\Seguimiento3.staticwebassets.endpoints.json

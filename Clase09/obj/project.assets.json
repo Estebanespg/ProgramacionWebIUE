@@ -6712,11 +6712,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Clase09\\Clase09.csproj",
+      "projectUniqueName": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\clase09\\Clase09.csproj",
       "projectName": "Clase09",
-      "projectPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Clase09\\Clase09.csproj",
+      "projectPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\clase09\\Clase09.csproj",
       "packagesPath": "C:\\Users\\Esteban\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Clase09\\obj\\",
+      "outputPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\clase09\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Esteban\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7214,7 +7214,7 @@
       "code": "NU1901",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NuGet.Packaging' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
+      "message": "El paquete \"NuGet.Packaging\" 6.12.1 tiene una vulnerabilidad de gravedad baja conocida, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
       "libraryId": "NuGet.Packaging",
       "targetGraphs": [
         "net10.0"
@@ -7224,7 +7224,7 @@
       "code": "NU1901",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NuGet.Protocol' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
+      "message": "El paquete \"NuGet.Protocol\" 6.12.1 tiene una vulnerabilidad de gravedad baja conocida, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
       "libraryId": "NuGet.Protocol",
       "targetGraphs": [
         "net10.0"
@@ -7234,7 +7234,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
+      "message": "El paquete \"System.Security.Cryptography.Pkcs\" 9.0.4 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
       "libraryId": "System.Security.Cryptography.Pkcs",
       "targetGraphs": [
         "net10.0"
@@ -7244,7 +7244,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-846f-f764-76mx",
+      "message": "El paquete \"System.Security.Cryptography.Pkcs\" 9.0.4 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-846f-f764-76mx",
       "libraryId": "System.Security.Cryptography.Pkcs",
       "targetGraphs": [
         "net10.0"
