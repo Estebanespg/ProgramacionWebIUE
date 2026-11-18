@@ -1,0 +1,36 @@
+@Clase11_HostAddress = http://localhost:5265
+
+GET {{Clase11_HostAddress}}/weatherforecast/
+Accept: application/json
+
+### 1. Consultar todas las personas
+GET {{Clase11_HostAddress}}/api/Personas
+Accept: application/json
+ 
+### 2. Consultar una persona por su ID
+GET {{Clase11_HostAddress}}/api/Personas/2
+Accept: application/json
+ 
+### 3. Crear una nueva persona
+POST {{Clase11_HostAddress}}/api/Personas
+Content-Type: application/json
+ 
+{
+  "nombre": "Mariana López",
+  "fechaNacimiento": "2005-03-18",
+  "activo": true
+}
+ 
+### 4. Actualizar una persona existente (ajustar el ID)
+PUT {{Clase11_HostAddress}}/api/Personas/1
+Content-Type: application/json
+ 
+{
+  "id": 1,
+  "nombre": "Ana García Actualizada",
+  "fechaNacimiento": "1995-06-10",
+  "activo": true
+}
+ 
+### 5. Eliminar una persona (ajustar el ID)
+DELETE {{Clase11_HostAddress}}/api/Personas/3

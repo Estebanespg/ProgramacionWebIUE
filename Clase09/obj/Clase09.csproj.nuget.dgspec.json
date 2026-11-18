@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\clase09\\Clase09.csproj": {}
+    "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Clase09\\Clase09.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\clase09\\Clase09.csproj": {
+    "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Clase09\\Clase09.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\clase09\\Clase09.csproj",
+        "projectUniqueName": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Clase09\\Clase09.csproj",
         "projectName": "Clase09",
-        "projectPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\clase09\\Clase09.csproj",
+        "projectPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Clase09\\Clase09.csproj",
         "packagesPath": "C:\\Users\\Esteban\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\clase09\\obj\\",
+        "outputPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Clase09\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Esteban\\AppData\\Roaming\\NuGet\\NuGet.Config"
