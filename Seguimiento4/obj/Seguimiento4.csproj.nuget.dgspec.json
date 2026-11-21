@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento04\\Seguimiento04.csproj": {}
+    "c:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento4\\Seguimiento4.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento04\\Seguimiento04.csproj": {
+    "c:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento4\\Seguimiento4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento04\\Seguimiento04.csproj",
-        "projectName": "Seguimiento04",
-        "projectPath": "c:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento04\\Seguimiento04.csproj",
+        "projectUniqueName": "c:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento4\\Seguimiento4.csproj",
+        "projectName": "Seguimiento4",
+        "projectPath": "c:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento4\\Seguimiento4.csproj",
         "packagesPath": "C:\\Users\\Esteban\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento04\\obj\\",
+        "outputPath": "c:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Esteban\\AppData\\Roaming\\NuGet\\NuGet.Config"

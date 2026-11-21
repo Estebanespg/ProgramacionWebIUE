@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento04\\Seguimiento04.csproj",
-      "projectName": "Seguimiento04",
-      "projectPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento04\\Seguimiento04.csproj",
+      "projectUniqueName": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento4\\Seguimiento4.csproj",
+      "projectName": "Seguimiento4",
+      "projectPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento4\\Seguimiento4.csproj",
       "packagesPath": "C:\\Users\\Esteban\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento04\\obj\\",
+      "outputPath": "C:\\Users\\Esteban\\Documents\\IUE\\06SEMESTRE\\ProgramacionWeb\\Seguimiento4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Esteban\\AppData\\Roaming\\NuGet\\NuGet.Config"

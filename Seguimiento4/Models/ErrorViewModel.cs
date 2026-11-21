@@ -1,4 +1,4 @@
-namespace Seguimiento04.Models;
+namespace Seguimiento4.Models;
 
 public class ErrorViewModel
 {

@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Seguimiento04.Models;
+using Seguimiento4.Models;
 
-namespace Seguimiento04.Controllers;
+namespace Seguimiento4.Controllers;
 
 public class HomeController : Controller
 {
